@@ -10,17 +10,19 @@
 
         <?php
 
-        $user = new User();
+//        $user = new User();
+//
+//        $user->username = "will";
+//        $user->password = "123";
+//        $user->first_name = "will";
+//        $user->last_name = "will";
+//
+//        $user->create();
 
-        $user->username = "Suave";
-        $user->password = "123";
-        $user->first_name = "Rica";
-        $user->last_name = "Suaves";
+            $user = User::find_user_by_id(2);
+            $user->last_name = "Williams";
 
-        $user->create();
-
-//            $found_user = User::find_user_by_id(2);
-//            echo $found_user->username;
+            $user->update();
         ?>
 
         <ol class="breadcrumb">
