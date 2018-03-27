@@ -16,24 +16,24 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="92" column="38" lean-forward="false" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+            <state relative-caret-position="300">
+              <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
               <folding>
-                <marker date="1522185420000" expanded="true" signature="354:373" ph="SELECT * FRO... users" />
-                <marker date="1522185420000" expanded="true" signature="520:549" ph="SELECT * FRO... users" />
-                <marker date="1522185420000" expanded="true" signature="520:565" ph="SELECT * FRO... users" />
-                <marker date="1522185420000" expanded="true" signature="1221:1246" ph="SELECT * FRO... users" />
-                <marker date="1522185420000" expanded="true" signature="2663:2675" ph="INSERT INTO ${self::$db_table}... " />
-                <marker date="1522185420000" expanded="true" signature="2663:2698" ph="INSERT INTO users... " />
-                <marker date="1522185420000" expanded="true" signature="2663:2699" ph="INSERT INTO ${self::$db_table}... " />
-                <marker date="1522185420000" expanded="true" signature="2663:2744" ph="INSERT INTO ${self::$db_table}... " />
-                <marker date="1522185420000" expanded="true" signature="2663:2745" ph="INSERT INTO ${self::$db_table}... " />
-                <marker date="1522185420000" expanded="true" signature="2663:2746" ph="INSERT INTO ${self::$db_table}... " />
-                <marker date="1522185420000" expanded="true" signature="2663:2763" ph="INSERT INTO ${self::$db_table}... " />
-                <marker date="1522185420000" expanded="true" signature="3082:3116" ph="UPDATE users... " />
-                <marker date="1522185420000" expanded="true" signature="3739:3751" ph="DELETE FROM ${self::$db_table}... " />
-                <marker date="1522185420000" expanded="true" signature="3739:3774" ph="DELETE FROM users... " />
-                <marker date="1522185420000" expanded="true" signature="3745:3751" ph="UPDATE users... " />
+                <marker date="1522185856000" expanded="true" signature="452:471" ph="SELECT * FRO... users" />
+                <marker date="1522185856000" expanded="true" signature="618:647" ph="SELECT * FRO... users" />
+                <marker date="1522185856000" expanded="true" signature="618:663" ph="SELECT * FRO... users" />
+                <marker date="1522185856000" expanded="true" signature="1319:1344" ph="SELECT * FRO... users" />
+                <marker date="1522185856000" expanded="true" signature="2997:3009" ph="INSERT INTO ${self::$db_table}... " />
+                <marker date="1522185856000" expanded="true" signature="2997:3032" ph="INSERT INTO users... " />
+                <marker date="1522185856000" expanded="true" signature="2997:3033" ph="INSERT INTO ${self::$db_table}... " />
+                <marker date="1522185856000" expanded="true" signature="2997:3078" ph="INSERT INTO ${self::$db_table}... " />
+                <marker date="1522185856000" expanded="true" signature="2997:3079" ph="INSERT INTO ${self::$db_table}... " />
+                <marker date="1522185856000" expanded="true" signature="2997:3080" ph="INSERT INTO ${self::$db_table}... " />
+                <marker date="1522185856000" expanded="true" signature="2997:3097" ph="INSERT INTO ${self::$db_table}... " />
+                <marker date="1522185856000" expanded="true" signature="3417:3451" ph="UPDATE users... " />
+                <marker date="1522185856000" expanded="true" signature="4074:4086" ph="DELETE FROM ${self::$db_table}... " />
+                <marker date="1522185856000" expanded="true" signature="4074:4109" ph="DELETE FROM users... " />
+                <marker date="1522185856000" expanded="true" signature="4080:4086" ph="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -42,7 +42,7 @@
       <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="651">
               <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="e#218#247#0#PHP" expanded="true" />
@@ -181,7 +181,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30947000" />
+    <option name="totallyTimeSpent" value="31382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -595,7 +595,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
+        <state relative-caret-position="651">
           <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="e#218#247#0#PHP" expanded="true" />
@@ -606,24 +606,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="92" column="38" lean-forward="false" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+        <state relative-caret-position="300">
+          <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
           <folding>
-            <marker date="1522185420000" expanded="true" signature="354:373" ph="SELECT * FRO... users" />
-            <marker date="1522185420000" expanded="true" signature="520:549" ph="SELECT * FRO... users" />
-            <marker date="1522185420000" expanded="true" signature="520:565" ph="SELECT * FRO... users" />
-            <marker date="1522185420000" expanded="true" signature="1221:1246" ph="SELECT * FRO... users" />
-            <marker date="1522185420000" expanded="true" signature="2663:2675" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1522185420000" expanded="true" signature="2663:2698" ph="INSERT INTO users... " />
-            <marker date="1522185420000" expanded="true" signature="2663:2699" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1522185420000" expanded="true" signature="2663:2744" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1522185420000" expanded="true" signature="2663:2745" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1522185420000" expanded="true" signature="2663:2746" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1522185420000" expanded="true" signature="2663:2763" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1522185420000" expanded="true" signature="3082:3116" ph="UPDATE users... " />
-            <marker date="1522185420000" expanded="true" signature="3739:3751" ph="DELETE FROM ${self::$db_table}... " />
-            <marker date="1522185420000" expanded="true" signature="3739:3774" ph="DELETE FROM users... " />
-            <marker date="1522185420000" expanded="true" signature="3745:3751" ph="UPDATE users... " />
+            <marker date="1522185856000" expanded="true" signature="452:471" ph="SELECT * FRO... users" />
+            <marker date="1522185856000" expanded="true" signature="618:647" ph="SELECT * FRO... users" />
+            <marker date="1522185856000" expanded="true" signature="618:663" ph="SELECT * FRO... users" />
+            <marker date="1522185856000" expanded="true" signature="1319:1344" ph="SELECT * FRO... users" />
+            <marker date="1522185856000" expanded="true" signature="2997:3009" ph="INSERT INTO ${self::$db_table}... " />
+            <marker date="1522185856000" expanded="true" signature="2997:3032" ph="INSERT INTO users... " />
+            <marker date="1522185856000" expanded="true" signature="2997:3033" ph="INSERT INTO ${self::$db_table}... " />
+            <marker date="1522185856000" expanded="true" signature="2997:3078" ph="INSERT INTO ${self::$db_table}... " />
+            <marker date="1522185856000" expanded="true" signature="2997:3079" ph="INSERT INTO ${self::$db_table}... " />
+            <marker date="1522185856000" expanded="true" signature="2997:3080" ph="INSERT INTO ${self::$db_table}... " />
+            <marker date="1522185856000" expanded="true" signature="2997:3097" ph="INSERT INTO ${self::$db_table}... " />
+            <marker date="1522185856000" expanded="true" signature="3417:3451" ph="UPDATE users... " />
+            <marker date="1522185856000" expanded="true" signature="4074:4086" ph="DELETE FROM ${self::$db_table}... " />
+            <marker date="1522185856000" expanded="true" signature="4074:4109" ph="DELETE FROM users... " />
+            <marker date="1522185856000" expanded="true" signature="4080:4086" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>

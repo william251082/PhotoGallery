@@ -9,6 +9,7 @@
 class User
 {
     protected static $db_table = 'users';
+    protected static $db_table_fields = array('username', 'password', 'first_name', 'last_name');
 
     public $id;
     public $username;
@@ -90,7 +91,14 @@ class User
 
     protected function properties()
     {
-        return get_object_vars($this);
+        $properties = array();
+
+        foreach (self::$db_table_fields as $db_table_field) {
+            if (property_exists($this, $db_table_field)) {
+                $properties[$db_table_field] = $this->db_table_field;
+            }
+        }
+        return $properties;
     }
 
     public function save()
@@ -105,7 +113,7 @@ class User
         $properties = $this->properties();
 
         $sql = "INSERT INTO " . self::$db_table . "(" . implode(",", array_keys($properties)) . ")";
-        $sql .= "VALUES('". implode("','", array_values($properties)) ."')";
+        $sql .= "VALUES ('". implode("','", array_values($properties)) ."')";
 
         if($database->query($sql)) {
 
