@@ -88,6 +88,11 @@ class User
         return array_key_exists($the_attribute, $object_properties);
     }
 
+    protected function properties()
+    {
+        return get_object_vars($this);
+    }
+
     public function save()
     {
         return isset($this->id) ? $this->update() : $this->create();
@@ -97,12 +102,10 @@ class User
     {
         global $database;
 
-        $sql = "INSERT INTO " . self::$db_table . " (username, password, first_name, last_name)";
-        $sql .= "VALUES('";
-        $sql .= $database->escape_string($this->username) . "', '";
-        $sql .= $database->escape_string($this->password) . "', '";
-        $sql .= $database->escape_string($this->first_name) . "', '";
-        $sql .= $database->escape_string($this->last_name) . "')";
+        $properties = $this->properties();
+
+        $sql = "INSERT INTO " . self::$db_table . "(" . implode(",", array_keys($properties)) . ")";
+        $sql .= "VALUES('". implode("','", array_values($properties)) ."')";
 
         if($database->query($sql)) {
 
