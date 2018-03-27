@@ -19,15 +19,17 @@
 //
 //        $user->create();
 
-            $user = User::find_user_by_id(2);
-            $user->last_name = "Williams";
+//            $user = User::find_user_by_id(2);
+//            $user->last_name = "Williams";
 
-            $user->update();
+
+            $user = User::find_user_by_id(2);
+            $user->delete();
         ?>
 
         <ol class="breadcrumb">
             <li>
-                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                <i class="fa fa-dashboard"></i>  <a href="index.php">Dashboard</a>
             </li>
             <li class="active">
                 <i class="fa fa-file"></i> Blank Page
