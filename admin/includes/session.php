@@ -30,7 +30,7 @@ class Sessions
         }
     }
 
-    public function logout($user)
+    public function logout()
     {
         unset($_SESSION['user_id']);
         unset($this->user_id);
