@@ -15,12 +15,12 @@
 //                echo $row['username'] . "<br>";
 //            }
 
-            $found_user = User::find_user_by_id(2);
-
-            $user = User::instantiation($found_user);
-
-            echo $user->id;
-            echo "<br>"
+//            $found_user = User::find_user_by_id(2);
+//
+//            $user = User::instantiation($found_user);
+//
+//            echo $user->id;
+//            echo "<br>"
         ?>
 
         <ol class="breadcrumb">
