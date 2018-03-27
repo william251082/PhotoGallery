@@ -21,6 +21,11 @@
 //
 //            echo $user->id;
 //            echo "<br>"
+
+            $users = User::find_all_users();
+            foreach ($users as $user) {
+                echo $user->id . "<br>";
+            }
         ?>
 
         <ol class="breadcrumb">
