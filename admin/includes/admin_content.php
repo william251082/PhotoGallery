@@ -10,17 +10,22 @@
 
         <?php
 
-        $user = new User();
+//        $user = new User();
+//
+//        $user->username = "willy";
+//        $user->password = "123";
+//        $user->first_name = "willy";
+//        $user->last_name = "willy";
+//
+//        $user->create();
 
-        $user->username = "willy";
-        $user->password = "123";
-        $user->first_name = "willy";
-        $user->last_name = "willy";
+            $user = User::find_user_by_id(13);
+            $user->username = "Jim";
+            $user->password = "123";
+            $user->first_name = "Jimmy";
+            $user->last_name = "Smith";
 
-        $user->create();
-
-//            $user = User::find_user_by_id(2);
-//            $user->last_name = "Williams";
+            $user->update();
 
 
 //            $user = User::find_user_by_id(12);
