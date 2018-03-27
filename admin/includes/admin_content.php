@@ -15,17 +15,18 @@
 //                echo $row['username'] . "<br>";
 //            }
 
-//            $found_user = User::find_user_by_id(2);
+            $found_user = User::find_user_by_id(2);
+            echo $found_user->username;
 //
 //            $user = User::instantiation($found_user);
 //
 //            echo $user->id;
 //            echo "<br>"
 
-            $users = User::find_all_users();
-            foreach ($users as $user) {
-                echo $user->id . "<br>";
-            }
+//            $users = User::find_all_users();
+//            foreach ($users as $user) {
+//                echo $user->id . "<br>";
+//            }
         ?>
 
         <ol class="breadcrumb">
