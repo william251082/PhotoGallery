@@ -23,8 +23,15 @@
 //            $user->last_name = "Williams";
 
 
-            $user = User::find_user_by_id(2);
-            $user->delete();
+            $user = User::find_user_by_id(12);
+            $user->password = "123";
+            $user->save();
+
+//            $user = new User();
+//
+//            $user->username = "hiWorld";
+//            $user->save();
+
         ?>
 
         <ol class="breadcrumb">
