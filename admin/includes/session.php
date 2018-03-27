@@ -17,7 +17,7 @@ class Sessions
         $this->check_the_login();
     }
 
-    private function is_signed_out()
+    public function is_signed_in()
     {
         return$this->signed_in;
     }
