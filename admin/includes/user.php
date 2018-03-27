@@ -108,10 +108,10 @@ class User
             $this->id = $database->the_insert_id();
             return true;
 
-        } else{
+        } else {
 
             return false;
-            
+
         }
 
         $database->query($sql);
