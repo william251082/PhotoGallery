@@ -10,14 +10,14 @@
 
         <?php
 
-//        $user = new User();
-//
-//        $user->username = "will";
-//        $user->password = "123";
-//        $user->first_name = "will";
-//        $user->last_name = "will";
-//
-//        $user->create();
+        $user = new User();
+
+        $user->username = "willy";
+        $user->password = "123";
+        $user->first_name = "willy";
+        $user->last_name = "willy";
+
+        $user->create();
 
 //            $user = User::find_user_by_id(2);
 //            $user->last_name = "Williams";
@@ -27,10 +27,10 @@
 //            $user->password = "123";
 //            $user->save();
 
-            $user = new User();
-
-            $user->username = "hiWorld";
-            $user->save();
+//            $user = new User();
+//
+//            $user->username = "hiWorld";
+//            $user->save();
 
 //        $user = User::find_user_by_id(12);
 //        $user->delete();
