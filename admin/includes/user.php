@@ -36,7 +36,7 @@ class User
         return $result_set;
     }
 
-    private static function instantiation($found_user)
+    public static function instantiation($found_user)
     {
         $the_object = new self;
 
