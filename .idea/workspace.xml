@@ -14,25 +14,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="465">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="e#217#268#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="-33">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
-                <marker date="1522147779000" expanded="true" signature="202:221" ph="SELECT * FRO... users" />
-                <marker date="1522147779000" expanded="true" signature="363:392" ph="SELECT * FRO... users" />
-                <marker date="1522147779000" expanded="true" signature="363:408" ph="SELECT * FRO... users" />
+                <marker date="1522148561000" expanded="true" signature="311:330" ph="SELECT * FRO... users" />
+                <marker date="1522148561000" expanded="true" signature="472:501" ph="SELECT * FRO... users" />
+                <marker date="1522148561000" expanded="true" signature="472:517" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -166,7 +168,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9456000" />
+    <option name="totallyTimeSpent" value="10266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -330,7 +332,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#217#268#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -386,7 +390,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#217#268#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,23 +533,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
-            <marker date="1522147779000" expanded="true" signature="202:221" ph="SELECT * FRO... users" />
-            <marker date="1522147779000" expanded="true" signature="363:392" ph="SELECT * FRO... users" />
-            <marker date="1522147779000" expanded="true" signature="363:408" ph="SELECT * FRO... users" />
+            <element signature="e#217#268#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="-33">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <marker date="1522148561000" expanded="true" signature="311:330" ph="SELECT * FRO... users" />
+            <marker date="1522148561000" expanded="true" signature="472:501" ph="SELECT * FRO... users" />
+            <marker date="1522148561000" expanded="true" signature="472:517" ph="SELECT * FRO... users" />
+          </folding>
         </state>
       </provider>
     </entry>
