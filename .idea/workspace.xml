@@ -14,45 +14,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="90" column="68" lean-forward="false" selection-start-line="90" selection-start-column="68" selection-end-line="90" selection-end-column="68" />
+            <state relative-caret-position="2772">
+              <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
-                <marker date="1522182658000" expanded="true" signature="311:330" ph="SELECT * FRO... users" />
-                <marker date="1522182658000" expanded="true" signature="477:506" ph="SELECT * FRO... users" />
-                <marker date="1522182658000" expanded="true" signature="477:522" ph="SELECT * FRO... users" />
-                <marker date="1522182658000" expanded="true" signature="1178:1203" ph="SELECT * FRO... users" />
-                <marker date="1522182658000" expanded="true" signature="2488:2548" ph="INSERT INTO users... " />
-                <marker date="1522182658000" expanded="true" signature="2488:2549" ph="INSERT INTO users... " />
-                <marker date="1522182658000" expanded="true" signature="3110:3126" ph="UPDATE users... " />
-                <marker date="1522182658000" expanded="true" signature="3749:3766" ph="DELETE FROM users... " />
-                <marker date="1522182658000" expanded="true" signature="3755:3761" ph="UPDATE users... " />
+                <marker date="1522183445000" expanded="true" signature="354:373" ph="SELECT * FRO... users" />
+                <marker date="1522183445000" expanded="true" signature="520:549" ph="SELECT * FRO... users" />
+                <marker date="1522183445000" expanded="true" signature="520:565" ph="SELECT * FRO... users" />
+                <marker date="1522183445000" expanded="true" signature="1221:1246" ph="SELECT * FRO... users" />
+                <marker date="1522183445000" expanded="true" signature="2531:2543" ph="INSERT INTO ${self::$db_table}... " />
+                <marker date="1522183445000" expanded="true" signature="2531:2609" ph="INSERT INTO users... " />
+                <marker date="1522183445000" expanded="true" signature="2531:2610" ph="INSERT INTO users... " />
+                <marker date="1522183445000" expanded="true" signature="3171:3205" ph="UPDATE users... " />
+                <marker date="1522183445000" expanded="true" signature="3828:3840" ph="DELETE FROM ${self::$db_table}... " />
+                <marker date="1522183445000" expanded="true" signature="3828:3863" ph="DELETE FROM users... " />
+                <marker date="1522183445000" expanded="true" signature="3834:3840" ph="UPDATE users... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="387">
+              <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="e#218#247#0#PHP" expanded="true" />
-                <marker date="1522182981000" expanded="true" signature="804:830" ph="..." />
+                <marker date="1522183620000" expanded="true" signature="875:901" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -192,7 +184,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29627000" />
+    <option name="totallyTimeSpent" value="30228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -358,7 +350,7 @@
           <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="e#218#247#0#PHP" expanded="true" />
-            <marker date="1522182981000" expanded="true" signature="804:830" ph="..." />
+            <marker date="1522183620000" expanded="true" signature="875:901" ph="..." />
           </folding>
         </state>
       </provider>
@@ -417,7 +409,7 @@
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#218#247#0#PHP" expanded="true" />
-            <marker date="1522182981000" expanded="true" signature="804:830" ph="..." />
+            <marker date="1522183620000" expanded="true" signature="875:901" ph="..." />
           </folding>
         </state>
       </provider>
@@ -604,31 +596,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="90" column="68" lean-forward="false" selection-start-line="90" selection-start-column="68" selection-end-line="90" selection-end-column="68" />
+        <state relative-caret-position="387">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
-            <marker date="1522182658000" expanded="true" signature="311:330" ph="SELECT * FRO... users" />
-            <marker date="1522182658000" expanded="true" signature="477:506" ph="SELECT * FRO... users" />
-            <marker date="1522182658000" expanded="true" signature="477:522" ph="SELECT * FRO... users" />
-            <marker date="1522182658000" expanded="true" signature="1178:1203" ph="SELECT * FRO... users" />
-            <marker date="1522182658000" expanded="true" signature="2488:2548" ph="INSERT INTO users... " />
-            <marker date="1522182658000" expanded="true" signature="2488:2549" ph="INSERT INTO users... " />
-            <marker date="1522182658000" expanded="true" signature="3110:3126" ph="UPDATE users... " />
-            <marker date="1522182658000" expanded="true" signature="3749:3766" ph="DELETE FROM users... " />
-            <marker date="1522182658000" expanded="true" signature="3755:3761" ph="UPDATE users... " />
+            <element signature="e#218#247#0#PHP" expanded="true" />
+            <marker date="1522183620000" expanded="true" signature="875:901" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="2772">
+          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
-            <element signature="e#218#247#0#PHP" expanded="true" />
-            <marker date="1522182981000" expanded="true" signature="804:830" ph="..." />
+            <marker date="1522183445000" expanded="true" signature="354:373" ph="SELECT * FRO... users" />
+            <marker date="1522183445000" expanded="true" signature="520:549" ph="SELECT * FRO... users" />
+            <marker date="1522183445000" expanded="true" signature="520:565" ph="SELECT * FRO... users" />
+            <marker date="1522183445000" expanded="true" signature="1221:1246" ph="SELECT * FRO... users" />
+            <marker date="1522183445000" expanded="true" signature="2531:2543" ph="INSERT INTO ${self::$db_table}... " />
+            <marker date="1522183445000" expanded="true" signature="2531:2609" ph="INSERT INTO users... " />
+            <marker date="1522183445000" expanded="true" signature="2531:2610" ph="INSERT INTO users... " />
+            <marker date="1522183445000" expanded="true" signature="3171:3205" ph="UPDATE users... " />
+            <marker date="1522183445000" expanded="true" signature="3828:3840" ph="DELETE FROM ${self::$db_table}... " />
+            <marker date="1522183445000" expanded="true" signature="3828:3863" ph="DELETE FROM users... " />
+            <marker date="1522183445000" expanded="true" signature="3834:3840" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>
