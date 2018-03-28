@@ -9,6 +9,8 @@
         </h1>
 
         <?php
+//        $photo = Photo::find_by_id(5);
+//        echo $photo->filename;
 
 //                $photo = new Photo();
 //
