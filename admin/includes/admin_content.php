@@ -10,6 +10,21 @@
 
         <?php
 
+                $photo = new Photo();
+
+                $photo->title = "willy5";
+                $photo->description = "Lorem";
+                $photo->filename = "cars";
+                $photo->type = "image";
+                $photo->size = "20";
+
+                $photo->create();
+
+//                $photos = Photo::find_all();
+//                foreach ($photos as $photo) {
+//                    echo $photo->title;
+//                }
+
 //        $users = User::find_all();
 //        foreach ($users as $user) {
 //            echo $user->username;
