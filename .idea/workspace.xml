@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47ca31c9-532b-4949-ab6e-75b8b81e78f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/includes/photo.php" afterPath="$PROJECT_DIR$/admin/includes/photo.php" />
       <change beforePath="$PROJECT_DIR$/admin/photos.php" afterPath="$PROJECT_DIR$/admin/photos.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,36 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/photo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="e#215#338#0#PHP" expanded="false" />
-                <element signature="e#593#1254#0#PHP" expanded="false" />
-                <element signature="n#set_file#0;n#Photo#0;n#!!top" expanded="false" />
-                <element signature="n#save#0;n#Photo#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="photos.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/photos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="55" column="95" lean-forward="false" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -140,11 +114,6 @@
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="photogallery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="photogallery" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="car_pictures" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -196,7 +165,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45298000" />
+    <option name="totallyTimeSpent" value="45920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -632,14 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/db_object.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -666,21 +627,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/photo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
+        <state relative-caret-position="483">
           <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="e#215#338#0#PHP" expanded="false" />
             <element signature="e#593#1254#0#PHP" expanded="false" />
             <element signature="n#set_file#0;n#Photo#0;n#!!top" expanded="false" />
+            <element signature="n#picture_path#0;n#Photo#0;n#!!top" expanded="false" />
             <element signature="n#save#0;n#Photo#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-678">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="e#42#47#0#PHP" expanded="false" />
+            <element signature="e#114#119#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/photos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="55" column="95" lean-forward="false" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
           <folding />
         </state>
       </provider>
