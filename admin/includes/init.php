@@ -2,7 +2,7 @@
 
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
-define('SITE_ROOT', DS . 'Applications' . DS . 'MAMP' . DS . 'htdocs' . DS . 'photogallery' );
+define('SITE_ROOT', DS . 'Users' . DS . 'williamdelrosario' . DS . 'htdocs' . DS . 'photogallery');
 
 defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT.DS.'admin'.DS.'includes');
 
