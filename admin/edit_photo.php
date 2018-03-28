@@ -1,14 +1,28 @@
 <?php include("includes/header.php"); ?>
 
-<?php
-if (!$session->is_signed_in()){
-
-    redirect("login.php");
-}
-?>
+<?php if(!$session->is_signed_in()) {redirect("login.php");} ?>
 
 <?php
-//$photos = Photo::find_all();
+//
+//if(empty($_GET['id'])) {
+//    redirect("photos.php");
+//} else {
+//    $photo = Photo::find_by_id($_GET['id']);
+////
+////    var_dump($photo);die;
+//
+//    if (isset($_POST['update'])) {
+//
+//        if ($photo) {
+//            $photo->title = $_POST['title'];
+//            $photo->caption = $_POST['caption'];
+//            $photo->alternate_text = $_POST['alternate_text'];
+//            $photo->description = $_POST['description'];
+//
+//            $photo->save();
+//        }
+//    }
+//}
 ?>
 
     <!-- Navigation -->
@@ -36,8 +50,10 @@ if (!$session->is_signed_in()){
                         <small>Subheading</small>
                     </h1>
 
-                    <div class="col-md-12">
-                        
+                    <form action="edit_photo.php" method="post" ">
+
+                    <div class="col-md-8">
+
                         <div class="form-group">
                             <input type="text" name="title" class="form-control">
                         </div>
@@ -58,6 +74,41 @@ if (!$session->is_signed_in()){
                     </div>
 
                     </div>
+
+                    <div class="col-md-4" >
+                        <div  class="photo-info-box">
+                            <div class="info-box-header">
+                                <h4>Save <span id="toggle" class="glyphicon glyphicon-menu-up pull-right"></span></h4>
+                            </div>
+                            <div class="inside">
+                                <div class="box-inner">
+                                    <p class="text">
+                                        <span class="glyphicon glyphicon-calendar"></span> Uploaded on: April 22, 2030 @ 5:26
+                                    </p>
+                                    <p class="text ">
+                                        Photo Id: <span class="data photo_id_box">34</span>
+                                    </p>
+                                    <p class="text">
+                                        Filename: <span class="data">image.jpg</span>
+                                    </p>
+                                    <p class="text">
+                                        File Type: <span class="data">JPG</span>
+                                    </p>
+                                    <p class="text">
+                                        File Size: <span class="data">3245345</span>
+                                    </p>
+                                </div>
+                                <div class="info-box-footer clearfix">
+                                    <div class="info-box-delete pull-left">
+                                        <a href="delete_photo.php?id=<?php $photo->id; ?>" class="btn btn-danger btn-lg ">Delete</a>
+                                    </div>
+                                    <div class="info-box-update pull-right ">
+                                        <input type="submit" name="update" value="Update" class="btn btn-primary btn-lg ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div></form>
                 </div>
             </div>
             <!-- /.row -->

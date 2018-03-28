@@ -7,7 +7,7 @@
 
 if(empty($_GET['id'])) {
 
-    redirect("../photos.php");
+    redirect("photos.php");
 
 
 }
