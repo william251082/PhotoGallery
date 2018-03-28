@@ -10,15 +10,15 @@
 
         <?php
 
-                $photo = new Photo();
-
-                $photo->title = "willy5";
-                $photo->description = "Lorem";
-                $photo->filename = "cars";
-                $photo->type = "image";
-                $photo->size = "20";
-
-                $photo->create();
+//                $photo = new Photo();
+//
+//                $photo->title = "willy5";
+//                $photo->description = "Lorem";
+//                $photo->filename = "cars";
+//                $photo->type = "image";
+//                $photo->size = "20";
+//
+//                $photo->create();
 
 //                $photos = Photo::find_all();
 //                foreach ($photos as $photo) {
