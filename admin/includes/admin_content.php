@@ -10,6 +10,11 @@
 
         <?php
 
+        $users = User::find_all();
+        foreach ($users as $user) {
+            echo $user->username;
+        }
+
 //        $user = new User();
 //
 //        $user->username = "willy2";
