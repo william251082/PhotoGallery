@@ -10,17 +10,17 @@
 
         <?php
 
-        $users = User::find_all();
-        foreach ($users as $user) {
-            echo $user->username;
-        }
+//        $users = User::find_all();
+//        foreach ($users as $user) {
+//            echo $user->username;
+//        }
 
 //        $user = new User();
 //
-//        $user->username = "willy2";
+//        $user->username = "willy5";
 //        $user->password = "123";
-//        $user->first_name = "willy2";
-//        $user->last_name = "willy2";
+//        $user->first_name = "willy5";
+//        $user->last_name = "willy5";
 //
 //        $user->create();
 
